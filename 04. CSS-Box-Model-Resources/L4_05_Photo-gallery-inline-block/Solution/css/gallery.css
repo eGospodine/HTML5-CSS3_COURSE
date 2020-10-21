@@ -1,0 +1,19 @@
+
+.gallery {
+    
+}
+
+.gallery li {
+    display: inline-block;
+    list-style: none;
+    width: 30%;
+    
+}
+
+
+.gallery img {
+    display: block;
+    border-width: 0.4rem;
+    border-color: black;
+    border-style: solid;
+}

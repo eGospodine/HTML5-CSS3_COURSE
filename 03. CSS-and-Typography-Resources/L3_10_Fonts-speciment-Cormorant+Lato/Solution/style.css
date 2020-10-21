@@ -1,0 +1,21 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Lato, sans-serif;
+}
+
+h1, h2 {
+    font-family: Cormorant, serif;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+
+h1 { font-size: 2.3em; }
+h2 { 
+    font-size: 1.4 em; 
+    padding-top: 2em;
+}
+

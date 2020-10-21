@@ -1,0 +1,11 @@
+@media only screen ( max-width: 1200px ) {
+    
+    header > input {
+        display: block;
+        position: relative;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    
+    
+}

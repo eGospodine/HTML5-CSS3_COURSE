@@ -1,0 +1,84 @@
+@import url('reset.css');
+@import url('typography.css');
+@import url('media-query.css');
+
+body {
+    margin: 0.5em 7em;
+    background: rgb(238, 238, 238);
+}
+
+h1 {
+    font-family: Georgia, serif;
+}
+
+.site-title {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    border-bottom: 1px solid #ccc;
+}
+
+.main {
+    display: block;
+    float: left;
+    max-width: 65%;
+}
+
+.article {
+    float: left;
+    
+}
+
+.quotation {
+    display: inline-block;
+    padding: 1em;
+}
+
+.paragraph_q {
+    display: block;
+    max-width: 50%;
+    float: left;
+    margin-bottom: 2em;
+}
+
+blockquote {
+    display: block;
+    max-width: 50%;
+    float: right;
+    font-family: Georgia, serif;
+}
+
+.name {
+    float: right;
+    padding-bottom: 1em;
+}
+
+
+img {
+    border: 10px solid rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  
+}
+
+.img_1  {
+    display: block;
+    float: right;
+    vertical-align: top;
+}
+
+.img_2 {
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+    margin-right: 1em;
+    
+}
+
+aside {
+    display: block;
+    float: left;
+    max-width: 35%;
+    vertical-align: top;
+    padding-left: 10em;
+}

@@ -1,0 +1,20 @@
+@media ( max-width: 600px ) {
+    
+    .mq-width {
+        max-width: 600px;
+    }
+}
+
+@media ( max-height: 600px ) {
+    
+    .mq-height{
+        max-height: 600px;
+    }
+}
+
+@media ( max-height: 600px ) {
+    
+    .mq-ar {
+        max-height: 600px;
+    }
+}

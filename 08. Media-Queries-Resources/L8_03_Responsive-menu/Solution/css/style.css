@@ -1,0 +1,67 @@
+@import url('reset.css');
+@import url('typography.css');
+@import url('query.css');
+
+body {
+    margin: 3.5em 7em;
+    background: rgb(238, 238, 238);
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    padding-top: 0.5em;
+}
+
+.site-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    border-bottom: 1px solid #ccc;
+}
+
+.site-nav {
+    font-size: 0.5em;
+    font-family: Verdana, sans-serif;
+}
+
+.site-nav ul {
+    display: flex;
+    background-color: #fff;
+    padding: 1em 1em;
+    border-radius: 0.5em;;
+}
+
+.site-nav li {
+    list-style: none;
+    position: relative;
+    padding-right: 0.5em;
+}
+
+.site-nav a {
+    text-decoration: none;
+    font-weight: 300;
+    color: #fff;
+    padding: 0.5em 0.5em;
+    background-color: #000;
+    border-radius: 0.3em;
+    text-transform: capitalize;
+}
+
+@media only screen ( max-width: 1200px ) {
+    
+    body > input {
+        display: none;
+        position: relative;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    
+    
+}
+
+
+
+

@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1800 ) {
+    font-size: 23px;
+}
+
+@media only screen and (max-width: 1300 ) {
+    font-size: 21px;
+}
+
+@media only screen and (max-width: 800 ) {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600 ) {
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 500 ) {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 480 ) {
+    font-size: 12px;
+}

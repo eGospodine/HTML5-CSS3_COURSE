@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+} 
+
+h2, h3 {
+    font-family: Georgia, serif;
+}
+
+h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+h2 {font-size: 2.4em; }
+
+h3 { font-size: 2em;}
+
+h2, h3 {
+    margin-top: 0.5em;
+}
+
+body {
+    padding: 4em;
+    margin: 0 auto;
+    background-color: rgb(238, 238, 238);
+    
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+header {
+    flex: 1 0 100%;
+    border-bottom: 2px solid #333;
+    margin-bottom: 1em;
+}
+
+main {
+    flex: 0 0 70%;
+}
+
+
+main img {
+    margin: 0.5em;
+    background-color: rgb(255, 255, 255);
+    padding: 0.3em;
+    border: 2px solid #333;
+}
+
+.img1 {
+    display: block;
+    float: right;
+    vertical-align: top;
+    margin: 0.5em;
+    
+}
+
+.img2 {
+    display: block;
+    float: left;
+    vertical-align: top;
+    
+}
+
+.quot,
+.quotation blockquote {
+    margin: 2em 0;
+    padding: 0em 0;
+    display: block;
+    max-width: 50%;
+    float: left;
+    font-family: Georgia, serif;
+}
+
+.quotation blockquote {
+    border-left: 3px solid #333;
+    padding-left: 1em;
+    font-style: italic;
+}
+
+.name {
+    float: right;
+}
+
+aside {
+    flex: 0 0 25%;
+    padding: 0 1.5em;
+}
+
+aside ul {
+    display: block;
+}
+
+aside li {
+    list-style: none;
+}
+
+aside li a {
+    color: rgb(0, 153, 0);
+}
+

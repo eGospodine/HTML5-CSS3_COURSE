@@ -1,0 +1,36 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+html {
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: Helvetica, sans-serif;
+    
+}
+
+p {
+    display: block;
+    margin-bottom: 1.5em;
+}
+
+a {
+    color: #fff;
+    border-radius: 0.3em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.first-button {
+    border: 1px solid forestgreen;
+    color: #fff;
+    background-color: forestgreen;
+}
+
+.second-button {
+    border: 1px solid orange;
+    color: #fff;
+    background-color: orange;
+}
+
+.fas {
+    color: #fff;
+}

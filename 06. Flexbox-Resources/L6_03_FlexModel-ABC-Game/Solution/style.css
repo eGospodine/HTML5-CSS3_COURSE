@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+    
+/*    font: 16px/1.5 Helvetica, sans-serif;*/
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body {
+   padding: 4em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 15vw;
+    height: 35rem;
+    flex-direction: column;
+}
+
+span {
+    border: 1px solid #000;
+    padding: 1em;
+    margin: 1em;
+}
+
+.S { order: 1; }
+.e { order: 2; }
+.m { order: 3; }
+.a { order: 4; }
+.n { order: 5; }
+.t { order: 6; }
+.i { order: 7; }
+.c { order: 8; }
+.H { order: 9; }
+.T { order: 10; }
+.M { order: 11; }
+.L { order: 12; }
